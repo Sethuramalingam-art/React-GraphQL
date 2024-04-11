@@ -3,6 +3,8 @@
 setup express server with graphQL
 https://graphql.org/graphql-js/running-an-express-graphql-server/
 use GraphiQL tool for backend and apollo client FE
+
+graphIQL => only for dev env and to check it go to http://localhost:5000/graphql after server up
 npm i express express-graphql graphql mongoose cors colors
 npm install express graphql-http graphql ruru --save
 
