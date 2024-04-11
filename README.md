@@ -84,3 +84,7 @@ reat query and aploot client is mostly same for FROntend
 const [addTodo, { data }] = useMutation(ADD_TODO); usemutation returns add/delete/update functions and data
 
 const {loading, error , data } = useQuery(GET_PROJECTS);useQuery returns loading error and data
+
+docker file created for client and server separately and docker compose file created.
+
+If you want ot start the app just docker-compose up -d --build
